@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import Services from './pages/Services';
+import Products from './pages/Products';
+
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
@@ -68,6 +70,7 @@ export default function Navbar() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/services" component={Services} />
+        <Route path="/products" component={Products} />
       </Switch>
     </Router>
   );

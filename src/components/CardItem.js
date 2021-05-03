@@ -6,8 +6,8 @@ export default function CardItem(props) {
 
   return (
     <>
-      <li className="card-item">
-        {/* Link 에 연결될 path URL */}
+      <li className="card-item" data-category={label}>
+        {/* Link 에 연결될 path URL 추가 */}
         <Link className="card-item-link" to={path}>
           <img src={src} alt={label} />
         </Link>

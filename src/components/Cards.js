@@ -25,6 +25,12 @@ export default function Cards() {
             label="스페셜"
             path='/services'
           />
+          <CardItem 
+            src='images/img-3.jpg'
+            text='바다 위 항해를 체험하면서 낚시를 즐겨보는 것은 어떠세요?'
+            label="스페셜"
+            path='/services'
+          />
         </ul>
       </div>
     </section>
